@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* khoi header */
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: #90c95a;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+#menu{
+    width: 1004px;
+    /* background-color: greenyellow; */
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu ul li{
+    float: left;
+}
+
+
+.logo24h{
+    width: 90px;
+    height: 50px;
+    border-right: 1px solid white
+     ;
+}
+.logo24h img{
+    margin: 6px 0 0 6px ;
+}
+.danhmuc{
+    width: 90px;
+    height: 50px;
+    border-right: 1px solid white ;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    position: relative;
+}
+.danhmuc img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;    
+
+}
+ul.root li a{
+    text-decoration: none;
+}
+ul.submenu{
+    width: 100px;
+    margin-top: 4px;
+    display: none;
+    position: absolute;
+}
+ul.submenu li a{
+    width: 100px;
+    display: block;
+    font-size: 15px;
+    background-color: #90c95a;
+    min-width: 200px;/* dặt chiều rộng tối thiểu của phần tử */
+    line-height: 30px; /* Đặt chiều cao dòng cho các phần tử*/
+    border-top:  1px solid gray;
+}
+ul.root > li:hover ul.submenu{
+    display: block;
+
+}
+.danhmuc  :hover{
+    background-color: gray;
+    display: block;
+}
+ul.root li a :hover{
+    background-color: gray  ;
+}
+
+
+/* khoi header muc nho */
+.bongda{
+    width: 62px;
+    /* background-color: magenta; */
+    height: 50px;
+    text-align: center;
+    margin-left:  5px;
+    font-size: 12px;
+    color: white;
+}
+.bongda img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+
+#menu .timkiem{
+    float: right;
+}
+.timkiem{
+    width: 90px;
+    display: inline-block;
+    /* background-color: magenta; */
+    height: 50px;
+    text-align: center;
+    margin-left:  5px;
+    font-size: 12px;
+    color: white;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+.timkiem img{
+    width: 40px;
+    height:40px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+#khoilon{
+    width:1004px ;
+/* di chuyen khoi nay ra giua */
+   display: block;
+   margin: 0 auto;
+}
+
+/* khoi tong */
+#tong{
+    width: 699px;
+    display:inline-block;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.nho1{
+    font-size: 20px;
+    font-style: normal;
+    width: 347px;
+    display: inline-block;
+    background-color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    
+}
+#tieude{
+    /* width: 347px; */
+    /* background-color: red; */
+    display: inline-block;
+    font-size: 15px;
+}
+#tieude ul li{
+    display: inline-block;
+    color: white;
+    background-color:  gray;
+    border-radius: 20%;
+    /* margin-right: 5px; */
+}
+#tieude ul li:first-child{
+    /* first-childchọn được sử dụng để chọn bộ chọn 
+    được chỉ định, chỉ khi nó là con đầu tiên của bộ
+     chọn cha mẹ của nó. */
+    background-color: greenyellow;
+}
+
+
+.noidung1 img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right:20px;
+}
+.noidung1{
+    display:inline-block;
+}
+.noidung2{
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+}
+span{
+    font-size: 10px;
+    font-weight: bold;
+}
+.noidung3{
+    font-size:14px;
+    background-color: rgb(217, 255, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ #quangcao img{
+     /* width: 784px; */
+ }
+.quangcaoto img{
+    width: 346px;
+    height: 222px;
+    float: left;
+    border-radius:20% ;
+    margin-right: 4px;
+}
+
+/* khoi videochonloc */
+#videochonloc{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 699px; 
+    display:inline-block;
+    /* background-color: rgb(255, 170, 170);  */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#videochonloc h2{
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid green;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#videochonloc h2.brvdcl{
+    background: url(2.jpg) no-repeat 0 center;
+    background-size: 30px;
+    padding-left: 40px;
+}
+.videoto{
+    width: 400px;
+    display:inline-block;
+}
+.videoto h3{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.videoto span{
+    font-size: 13px;
+}
+
+.videonhos{
+    overflow: auto;
+    height: 298px;
+    display:inline-block;
+    width: 250px;
+    margin-left: 15px;
+    border-left: 1px solid rgb(172, 172, 172);
+    padding-left: 15px;
+    /* background-color:yellow; */
+}
+.videonhos ul{
+    width: 100%;
+    display:inline-block;
+}
+.videonhos ul li{
+    width: 100%;
+    display:inline-block;
+}
+.videonhos ul li iframe{
+    float:left;
+    margin-bottom: 15px;
+}
+
+/* KHOI TIN THEO CHIEU DOC */
+#nho2{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 699px; 
+    display:inline-block;
+    /* background-color: rgb(255, 170, 170);  */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.noidungnho2{
+    display: inline-block;
+    line-height: 18px;
+}
+.noidungnho2 img{
+    width: 120px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.noidungchinhnho2{
+    width: 700px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.noidungchinhnho2 h2{
+    font-size: 14px;
+}
+.noidungchinhnho2 p{
+    font-size: 13px;
+}
+.tin4s{
+    float: left;
+    font-size: 12px;
+}
+
+
+
+/* KHOI tong2 */
+#tong2{
+    width:300px;
+    float: right;
+}
+#tttt{
+    width: 100%;
+    display: inline-block;
+}
+#tttt h2{
+    font-size: 15px;
+    color: green;
+    border-bottom: 2px solid green;
+    text-transform: uppercase;
+}
+#tttt ul{
+    width: 100%;
+    display: inline-block;
+
+}
+#tttt ul li{
+    width: 100%;
+    display:inline-block;
+}
+#tttt ul li img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    float: left;
+}
+#tttt ul li p{
+    
+}
+
+
+/* ttck  */
+#ttck{
+    width: 100%;
+    display: inline-block;
+}
+#ttck h2{
+    font-size: 15px;
+    color: green;
+    border-bottom: 2px solid green;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+#ttck h2.brttck{
+    /*background: mau` url() repeat vitringang(left center right) vitridoc(top center bototm);*/
+    background: url(1.jpg) no-repeat 0 center;
+    background-size: 15px;
+    padding-left: 20px;
+
+}
+
+#ttck ul{
+    width: 100%;
+    display: inline-block;
+}
+#ttck ul li{
+    width: 100%;
+    display: inline-block;
+}
+#ttck ul li img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 15px;
+}
+/* dcpd */
+
+#dcpd h2{
+    font-size: 15px;
+    color: rgb(255, 0, 179);
+    border-bottom: 2px solid rgb(255, 0, 179);
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+#dcpd h2.brdrcpd{
+    background: url(1.jpg) no-repeat 0 center;
+    background-size: 15px;
+    padding-left: 20px;
+}
+#dcpd ul li{
+    width: 100%;
+    display: inline-block
+}
+#dcpd ul li img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 15px;
+}
+
+/* khoi thong tin doanh nghiep */
+#ttdn{
+    background-color: rgb(255, 250, 206);
+    width: 100%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#ttdn h2{
+    font-size: 17px;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.khoi8tin{
+    margin: 10px 2px 10px 5px;
+    /* background-color: palegoldenrod; */
+    width: 240px;
+    display: inline-block;
+}
+.khoi8tin img{
+    margin-right: 10px;
+    width: 110px;
+    height: 83px;
+    float: left;
+}
+.noidung8tin{
+    font-size: 13px;
+}
+
+
+/* khoibottom */
+#khoibottom{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(235, 235, 235);
+}
+
+/* khoi mn */
+#mn{
+    width:1004px ;
+/* di chuyen khoi nay ra giua */
+   display: block;
+   margin: 0 auto;
+    /* display: inline-block ; */
+    height: 100px;
+    /* background-color: rgb(235, 235, 235); */
+    /* text-align: center; */
+
+}
+.mn1{
+    margin-top: 20px;
+    width: 111px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    /* background-color: red; */
+}
+
+/* khoi gioithieu */
+#gioithieu{
+    margin-top: 15px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: limegreen;
+}
+.chu{
+    margin-top: 10px;
+}
+
+
+/* noidungcuoicung */
+#noidungcuoicung{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 20px 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a{
+    width: 998px;
+    height: 72px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#tttt {
+    width: 100%;
+    display: inline-block;
+}
+#tttt h2 {
+    text-transform: uppercase; 
+    color: green;
+    border-bottom: 2px solid green;
+    font-size: 15px;
+}
+#tttt ul {
+    width: 100%;
+    display: inline-block;
+}
+#tttt ul li {
+    /* clear: both; */
+
+    /* width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+}
+#tttt ul li img {
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin-right: 15px;
+} */ 
